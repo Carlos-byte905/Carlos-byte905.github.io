@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar el Servicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .buy-options {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .buy-options p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .buy-options a {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #f8c300;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .buy-options a:hover {
+            background-color: #e0a500;
+        }
+        .payment-icons {
+            margin-top: 30px;
+        }
+        .payment-icons img {
+            width: 50px;
+            height: auto;
+            margin: 0 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="logo">IPTV NOW</div>
+            <nav class="nav-links">
+                <a href="inicio.html">INICIO</a>
+                <a href="planes.html">PLANES DE SERVICIOS</a>
+                <a href="comprar.html">COMPRAR EL SERVICIO</a>
+                <a href="soporte.html">SOPORTE</a>
+            </nav>
+        </header>
+
+        <section class="content">
+            <div class="buy-options">
+                <h1>Comprar el Servicio</h1>
+                <p>Para adquirir nuestro servicio, selecciona uno de los planes y compra a través de nuestro correo electrónico. Nuestro equipo te asistirá en el proceso.</p>
+                <a href="mailto:crubialesmorales@gmail.com?subject=Interés en Adquirir un Plan&body=Hola,%0A%0AEstoy interesado en comprar uno de los planes disponibles. Por favor, proporciónenme más detalles.%0A%0AGracias!" target="_blank">Comprar Ahora</a>
+                <div class="payment-icons">
+                    <img src="/Imagenes/paypal-logo.png" alt="PayPal">
+                    <img src="/Imagenes/visa.png" alt="Visa">
+                    <img src="/Imagenes/google-pay.png" alt="Google Pay">
+                    <img src="/Imagenes/mastercard.png" alt="MasterCard">
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>
+                <a href="#facebook">Facebook</a> |
+                <a href="#twitter">Twitter</a> |
+                <a href="#instagram">Instagram</a> |
+                <a href="terminos_y_condiciones.html">Términos y Condiciones</a> |
+                <a href="politica_de_privacidad.html">Política de Privacidad</a> |
+                <a href="soporte.html">Soporte Técnico</a>
+            </p>
+            <p>&copy; 2024 [IPTV Now]. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

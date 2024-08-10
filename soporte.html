@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 40px 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .section a {
+            color: #f8c300;
+            text-decoration: none;
+        }
+        .section a:hover {
+            text-decoration: underline;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .form-container input, .form-container textarea {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .form-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #f8c300;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #e0a500;
+        }
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .social-media a:hover {
+            color: #f8c300;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="logo">IPTV NOW</div>
+            <nav class="nav-links">
+                <a href="inicio.html">INICIO</a>
+                <a href="planes.html">PLANES DE SERVICIOS</a>
+                <a href="comprar.html">COMPRAR EL SERVICIO</a>
+                <a href="soporte.html">SOPORTE</a>
+            </nav>
+        </header>
+
+        <section class="content">
+            <h1>Soporte</h1>
+
+            <div class="section">
+                <h2>Correo Electrónico</h2>
+                <p><strong>Soporte General:</strong> <a href="mailto:crubialesmorales@gmail.com">soporte@tuservicioiptv.com</a></p>
+                <p><strong>Ventas y Consultas Comerciales:</strong> <a href="mailto:crubialesmorales@gmail.com">ventas@tuservicioiptv.com</a></p>
+            </div>
+
+            <div class="section">
+                <h2>Teléfono</h2>
+                <p><strong>Línea de Soporte:</strong> +34 655 444 084</p>
+                <p><strong>Horario de Atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM (hora local)</p>
+            </div>
+
+            <div class="section">
+                <h2>Chat en Vivo</h2>
+                <p><strong>Disponibilidad:</strong> Lunes a Domingo, 24 horas al día.</p>
+                <p><strong>Iniciar Chat:</strong> Haz clic en el ícono de chat en la esquina inferior derecha para hablar con un representante en tiempo real.</p>
+            </div>
+
+            <div class="section form-container">
+                <h2>Formularios de Soporte</h2>
+                
+               <form action="https://formspree.io/f/xovawlao" method="post">
+                 <h3>Formulario de Consulta General</h3>
+                 <input type="text" name="name" placeholder="Nombre" required>
+                 <input type="email" name="email" placeholder="Correo Electrónico" required>
+                 <input type="text" name="subject" placeholder="Asunto" required>
+                 <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+                 <button type="submit">Enviar Consulta</button>
+               </form>
+                
+                <form action="https://formspree.io/f/mwpebqkv" method="post" enctype="multipart/form-data">
+                  <h3>Formulario de Problemas Técnicos</h3>
+                  <input type="text" name="name" placeholder="Nombre" required>
+                  <input type="email" name="email" placeholder="Correo Electrónico" required>
+                  <textarea name="problem_description" placeholder="Descripción del Problema" rows="5" required></textarea>
+                  <input type="file" name="screenshot" accept="image/*">
+                  <button type="submit">Reportar Problema</button>
+                </form>
+            </div>
+
+            <div class="social-media">
+                <h2>Síguenos en</h2>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <p>Recibe actualizaciones y noticias sobre nuestro servicio.</p>
+            </div>
+
+            <div class="section">
+                <h2>Horarios de Atención</h2>
+                <p><strong>Oficina Principal:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</p>
+                <p><strong>Soporte en Línea:</strong> Disponible 24/7</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>
+                <a href="#facebook">Facebook</a> |
+                <a href="#twitter">Twitter</a> |
+                <a href="#instagram">Instagram</a> |
+                <a href="terminos_y_condiciones.html">Términos y Condiciones</a> |
+                <a href="politica_de_privacidad.html">Política de Privacidad</a> |
+                <a href="soporte.html">Soporte Técnico</a>
+            </p>
+            <p>&copy; 2024 [IPTV Now]. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

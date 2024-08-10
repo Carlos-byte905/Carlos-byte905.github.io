@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .content p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .promo-bar {
+            background-color: #f8c300;
+            color: #333;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .explore-content {
+            background: #fff;
+            padding: 40px 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .explore-content h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #f8c300;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .explore-content .section {
+            margin-bottom: 20px;
+        }
+        .explore-content .section h3 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .explore-content .section p {
+            font-size: 16px;
+            color: #666;
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+        .explore-content .section p strong {
+            color: #f8c300;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="logo">IPTV NOW</div>
+            <nav class="nav-links">
+                <a href="inicio.html">INICIO</a>
+                <a href="planes.html">PLANES DE SERVICIOS</a>
+                <a href="iniciar_sesion.html">INICIAR SECCIÓN</a>
+                <a href="comprar.html">COMPRAR EL SERVICIO</a>
+                <a href="soporte.html">SOPORTE</a>
+            </nav>
+        </header>
+
+        <section id="inicio" class="content">
+            <h1>Disfruta de la Mejor Experiencia IPTV</h1>
+            <p><strong>Tu entretenimiento, sin límites. Conéctate a lo que amas.</strong></p>
+            <p>Accede a cientos de canales en vivo, películas y series desde cualquier dispositivo, en cualquier lugar. ¡Únete a nuestra comunidad de entretenimiento ilimitado!</p>
+
+            <div class="promo-bar">
+                ¡Prueba gratuita de 7 días! Disfruta de todos nuestros canales sin compromiso.
+            </div>
+        </section>
+
+        <section class="explore-content">
+            <h2>Explora Nuestro Contenido</h2>
+            
+            <div class="section">
+                <h3>Tipos de Canales</h3>
+                <p><strong>Deportes:</strong> Disfruta de transmisiones en vivo de los eventos deportivos más importantes, incluyendo fútbol, baloncesto, tenis y más.</p>
+                <p><strong>Noticias:</strong> Mantente informado con los canales de noticias más actualizados, cubriendo eventos locales e internacionales.</p>
+                <p><strong>Entretenimiento:</strong> Accede a canales dedicados a la comedia, espectáculos en vivo, reality shows y más.</p>
+                <p><strong>Cultura y Documentales:</strong> Explora documentales fascinantes y programas culturales sobre historia, naturaleza, ciencia y arte.</p>
+                <p><strong>Infantil:</strong> Ofrece contenido educativo y divertido para los más pequeños, con canales especializados en animación y programas educativos.</p>
+            </div>
+
+            <div class="section">
+                <h3>Películas</h3>
+                <p><strong>Estrenos Recientes:</strong> Encuentra las últimas películas que están causando sensación en los cines y en plataformas de streaming.</p>
+                <p><strong>Clásicos:</strong> Disfruta de grandes clásicos del cine que nunca pasan de moda.</p>
+                <p><strong>Comedia:</strong> Relájate con una amplia gama de películas cómicas para todas las edades.</p>
+                <p><strong>Drama:</strong> Sumérgete en historias profundas y emocionantes que te harán pensar.</p>
+                <p><strong>Acción y Aventura:</strong> Vive la adrenalina con películas llenas de acción, aventura y efectos especiales.</p>
+            </div>
+
+            <div class="section">
+                <h3>Series</h3>
+                <p><strong>Series Originales:</strong> Accede a nuestras series exclusivas y originales, disponibles solo para nuestros suscriptores.</p>
+                <p><strong>Drama:</strong> Sigue tramas envolventes y personajes complejos en nuestras series dramáticas.</p>
+                <p><strong>Comedia:</strong> Ríe con nuestras series de comedia que ofrecen humor para todos los gustos.</p>
+                <p><strong>Ciencia Ficción y Fantasía:</strong> Explora mundos imaginarios y futuros distantes con nuestras series de ciencia ficción y fantasía.</p>
+                <p><strong>Documentales:</strong> Aprende sobre diversos temas con nuestras series documentales que profundizan en temas actuales y históricos.</p>
+            </div>
+
+            <div class="section">
+                <h3>Cómo Funciona:</h3>
+                <p><strong>Explora:</strong> Navega por nuestros canales, películas y series.</p>
+                <p><strong>Selecciona:</strong> Elige el contenido que más te interese.</p>
+                <p><strong>Disfruta:</strong> Comienza a ver en calidad HD o 4K, en cualquier momento y en cualquier lugar.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>
+                <a href="#facebook">Facebook</a> |
+                <a href="#twitter">Twitter</a> |
+                <a href="#instagram">Instagram</a> |
+                <a href="terminos_y_condiciones.html">Términos y Condiciones</a> |
+                <a href="politica_de_privacidad.html">Política de Privacidad</a> |
+                <a href="soporte.html">Soporte Técnico</a>
+            </p>
+            <p>&copy; 2024 [IPTV Now]. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

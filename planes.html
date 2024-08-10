@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes de Servicios</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .content .plan {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content .plan h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .content .plan p {
+            font-size: 16px;
+            color: #666;
+            margin: 5px 0;
+        }
+        .content .plan ul {
+            list-style-type: none; /* Quitar los puntos */
+            padding: 0; /* Quitar el padding */
+            margin: 0; /* Quitar el margen */
+        }
+        .content .plan ul li {
+            font-size: 16px;
+            color: #666;
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+        .content .plan .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #f8c300;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .content .plan .cta:hover {
+            background-color: #e0a500;
+        }
+        .promo-bar {
+            background-color: #f8c300;
+            color: #333;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="logo">IPTV NOW</div>
+            <nav class="nav-links">
+                <a href="inicio.html">INICIO</a>
+                <a href="planes.html">PLANES DE SERVICIOS</a>
+                <a href="iniciar_sesion.html">INICIAR SECCIÓN</a>
+                <a href="comprar.html">COMPRAR EL SERVICIO</a>
+                <a href="soporte.html">SOPORTE</a>
+            </nav>
+        </header>
+
+        <section class="content">
+            <h1>Planes de Servicios</h1>
+            
+            <div class="plan">
+                <h2>Plan Básico</h2>
+                <p><strong>Precio:</strong> $9.99/mes</p>
+                <p><strong>Descripción:</strong> Ideal para quienes buscan una opción accesible para disfrutar de contenido de calidad.</p>
+                <p><strong>Incluye:</strong></p>
+                <ul>
+                    <li>Acceso a 100+ canales en vivo.</li>
+                    <li>Calidad de transmisión en HD.</li>
+                    <li>Soporte en un solo dispositivo.</li>
+                    <li>Acceso a una selección de series y películas.</li>
+                </ul>
+                <a href="comprar.html" class="cta">Empieza con lo esencial</a>
+            </div>
+            
+            <div class="plan">
+                <h2>Plan Estándar</h2>
+                <p><strong>Precio:</strong> $14.99/mes</p>
+                <p><strong>Descripción:</strong> El equilibrio perfecto entre precio y contenido, diseñado para familias y entusiastas del entretenimiento.</p>
+                <p><strong>Incluye:</strong></p>
+                <ul>
+                    <li>Acceso a 200+ canales en vivo, incluyendo deportes, noticias y entretenimiento.</li>
+                    <li>Calidad de transmisión en HD y Full HD.</li>
+                    <li>Soporte en hasta 2 dispositivos simultáneos.</li>
+                    <li>Biblioteca completa de películas y series.</li>
+                    <li>Acceso a eventos deportivos en vivo.</li>
+                </ul>
+                <a href="comprar.html" class="cta">El plan favorito de nuestros usuarios</a>
+            </div>
+            
+            <div class="plan">
+                <h2>Plan Premium</h2>
+                <p><strong>Precio:</strong> $19.99/mes</p>
+                <p><strong>Descripción:</strong> Para los que quieren la mejor experiencia posible con acceso ilimitado a todo el contenido.</p>
+                <p><strong>Incluye:</strong></p>
+                <ul>
+                    <li>Acceso a 300+ canales en vivo, incluyendo canales internacionales y premium.</li>
+                    <li>Calidad de transmisión en HD, Full HD y 4K.</li>
+                    <li>Soporte en hasta 4 dispositivos simultáneos.</li>
+                    <li>Biblioteca completa de películas, series y estrenos.</li>
+                    <li>Acceso a eventos deportivos y pay-per-view sin costos adicionales.</li>
+                    <li>Soporte prioritario 24/7.</li>
+                </ul>
+                <a href="comprar.html" class="cta">Vive el entretenimiento sin límites</a>
+            </div>
+
+            <div class="promo-bar">
+                <p>Prueba Gratuita: Todos los planes incluyen una prueba gratuita de 7 días. <br> Descuento Anual: Ahorra un 15% si pagas anualmente.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>
+                <a href="#facebook">Facebook</a> |
+                <a href="#twitter">Twitter</a> |
+                <a href="#instagram">Instagram</a> |
+                <a href="terminos_y_condiciones.html">Términos y Condiciones</a> |
+                <a href="politica_de_privacidad.html">Política de Privacidad</a> |
+                <a href="soporte.html">Soporte Técnico</a>
+            </p>
+            <p>&copy; 2024 [IPTV Now]. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
